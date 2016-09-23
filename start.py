@@ -1,5 +1,5 @@
-import bot
+import altbot
 
-b1 = bot.Bot(name="alt", thrId=3, channels='#rush', owner='rush')
+b1 = altbot.AltBot(name="alt", thrd=1, channels='#rush', look4='~')
 
 b1.start()
